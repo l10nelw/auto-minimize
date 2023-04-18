@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      form {
+        font-size: 1.1rem;
+        padding: 1rem;
+      }
+      fieldset {
+        margin-bottom: .5rem;
+        border-radius: 8px;
+      }
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <label>Allow up to <input type="number" name="limit" min="1" style="width: 4rem"> unminimized windows
+          <br><small></small></label>
+      </fieldset>
+      <fieldset>
+        <label><input type="checkbox" name="enabled"> Enable auto-minimizing</label>
+      </fieldset>
+    </form>
+    <script src="./options.js" type="module"></script>
+  </body>
+</html>

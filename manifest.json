@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Auto Minimize",
+  "description": "Set a limit for how many unminimized windows are allowed and minimize the rest",
+  "version": "1.0.0",
+  "permissions": [
+    "sessions",
+    "storage"
+  ],
+  "background": {
+    "page": "background/background.html"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "autominimize@lionelw"
+    }
+  }
+}
