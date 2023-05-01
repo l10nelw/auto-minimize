@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Auto Minimize",
   "description": "Set a limit for how many unminimized windows are allowed and minimize the rest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "permissions": [
     "sessions",
     "storage"
@@ -18,5 +18,9 @@
     "gecko": {
       "id": "autominimize@lionelw"
     }
+  },
+  "icons": {
+    "48": "auto-minimize.svg",
+    "96": "auto-minimize.svg"
   }
 }
